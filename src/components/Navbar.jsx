@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 
-export const Navbar = () => {
+const Navbar = () => {
   const [isToggled, setIsToggled] = useState(false);
   return (
-    <div className="backdrop-filter backdrop-blur-lg bg-opacity-70 px-8 flex items-baseline py-2 sticky top-0 shadow bg-transparent z-20 text-white max-w-7xl mx-auto text-sm">
+    <div className="backdrop-filter bg-gray-900 backdrop-blur-lg bg-opacity-70 px-8 flex items-baseline py-2 sticky top-0 shadow bg-transparent z-20  text-white max-w-7xl mx-auto text-sm">
       <span className="mt-1 font-medium flex">
-        <span className="mr-1" style={{ color: "#5A69DE" }}>
+        <span className="mr-1" style={{ color: "#6c757d" }}>
           Chirag
         </span>
         <span>Raju</span>
@@ -35,11 +35,7 @@ export const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li className="list-none cursor-pointer">
-          <Link to="contactMe" smooth={true} offset={-100}>
-            Contact Me
-          </Link>
-        </li>
+        
       </div>
       <div
         className="flex justify-end w-full lg:hidden cursor-pointer w-auto ml-auto"
@@ -50,7 +46,7 @@ export const Navbar = () => {
           <></>
         ) : (
           <i
-            className="fas fa-bars text-custom-light-blue mt-3"
+            className="fas fa-bars text-slate-500 mt-3"
             style={{ fontSize: "18px" }}
           ></i>
         )}
@@ -64,7 +60,7 @@ export const Navbar = () => {
       >
         <div className="flex justify-end w-full">
           <i
-            className=" fas fa-times text-custom-light-blue mt-3"
+            className=" fas fa-times text-slate-500 mt-3"
             style={{ fontSize: "18px" }}
             onClick={() => setIsToggled(!isToggled)}
           ></i>
@@ -108,16 +104,7 @@ export const Navbar = () => {
               </Link>
             </li>
 
-            <li className="list-none cursor-pointer">
-              <Link
-                to="contactMe"
-                offset={-100}
-                onClick={() => setIsToggled(!isToggled)}
-              >
-                {" "}
-                Contact Me
-              </Link>
-            </li>
+    
           </ul>
         </div>
       </div>
