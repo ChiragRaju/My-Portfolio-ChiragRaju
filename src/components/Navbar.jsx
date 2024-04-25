@@ -15,22 +15,22 @@ const Navbar = () => {
         className="hidden w-full lg:flex justify-end space-x-10 opacity-70"
         style={{ lineHeight: "45px" }}
       >
-        <li className="list-none cursor-pointer">
+        <li className="list-none cursor-pointer text-gray-400 hover:text-rose-50">
           <Link to="experience" smooth={true} offset={-100}>
             Experience
           </Link>
         </li>
-        <li className="list-none cursor-pointer">
+        <li className="list-none cursor-pointer  text-gray-400 hover:text-rose-50">
           <Link to="skills" smooth={true} offset={-100}>
             Skills
           </Link>
         </li>
-        <li className="list-none cursor-pointer">
+        <li className="list-none cursor-pointer  text-gray-400 hover:text-rose-50">
           <Link to="aboutMe" smooth={true} offset={-100}>
             About me
           </Link>
         </li>
-        <li className="list-none cursor-pointer">
+        <li className="list-none cursor-pointer text-gray-400 hover:text-rose-50">
           <Link to="myProjects" smooth={true} offset={-100}>
             Projects
           </Link>
