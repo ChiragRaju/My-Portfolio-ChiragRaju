@@ -44,6 +44,7 @@ const Projectlist = () => {
                       target="_blank"
                       href={config.liveDemoLink}
                       className="font-bold text-blue-400"
+                      rel="noreferrer"
                     >
                       Live Demo
                     </a>
@@ -51,6 +52,7 @@ const Projectlist = () => {
                       target="_blank"
                       href={config.githubLink}
                       className="font-bold text-gray-400"
+                      rel="noreferrer"
                     >
                       Source Code
                     </a>
@@ -63,6 +65,7 @@ const Projectlist = () => {
                       target="_blank"
                       href={config.githubLink}
                       className="font-bold text-gray-400"
+                      rel="noreferrer"
                     >
                       Source Code
                     </a>
