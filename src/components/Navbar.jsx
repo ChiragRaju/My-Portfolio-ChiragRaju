@@ -1,16 +1,18 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
+import Chiragrajupic from "./../images/Chiragrajupic.png"
 
 const Navbar = () => {
   const [isToggled, setIsToggled] = useState(false);
   return (
-    <div className="backdrop-filter bg-gray-900 backdrop-blur-lg bg-opacity-70 px-8 flex items-baseline py-2 sticky top-0 shadow bg-transparent z-20  text-white max-w-7xl mx-auto text-sm">
+    <nav className="backdrop-filter bg-gray-900 backdrop-blur-lg bg-opacity-70 px-8 flex items-baseline py-2 sticky top-0 shadow bg-transparent z-20  text-white max-w-7xl mx-auto text-sm">
       <span className="mt-1 font-medium flex">
-        <span className="mr-1" style={{ color: "#6c757d" }}>
+        <span className="mr-1 mt-1" style={{ color: "#6c757d" }}>
           Chirag
         </span>
-        <span>Raju</span>
+        <span className=" mt-1">Raju</span>
       </span>
+
       <div
         className="hidden w-full lg:flex justify-end space-x-10 opacity-70"
         style={{ lineHeight: "45px" }}
@@ -35,7 +37,15 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        
+        <div class="relative ml-3">
+          <div>
+            <img
+              class="h-8 w-8 rounded-full mt-1"
+              src={Chiragrajupic}
+              alt=""
+            />
+          </div>
+        </div>
       </div>
       <div
         className="flex justify-end w-full lg:hidden cursor-pointer w-auto ml-auto"
@@ -45,10 +55,15 @@ const Navbar = () => {
         {isToggled ? (
           <></>
         ) : (
-          <i
-            className="fas fa-bars text-slate-500 mt-3"
-            style={{ fontSize: "18px" }}
-          ></i>
+          <div className="relative ">
+            <div>
+              <img
+                class="h-15 w-8 rounded-full mt-1"
+                src={Chiragrajupic}
+                alt=""
+              />
+            </div>
+          </div>
         )}
       </div>
       <div
@@ -103,12 +118,10 @@ const Navbar = () => {
                 Projects
               </Link>
             </li>
-
-    
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
