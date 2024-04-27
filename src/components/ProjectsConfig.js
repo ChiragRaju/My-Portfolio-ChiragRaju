@@ -16,7 +16,7 @@ const projectsConfig = [
     title: "  Pizz-Pal",
     previewImage: PizzaPal,
     description:
-      "Full stack blogging application which i actually built as a part of assignment for one startup hiring. It was fun building this project. Learnt a lot of things. Built using nextjs, tailwind css, mongodb and appwrite",
+      "Implemented a pizza ordering web application using React and Redux Toolkit, leveraging state management for seamless user interaction and efficient data handling",
     liveDemoLink: "https://pizzz-6vcva35ap-chirag-raju-ss-projects.vercel.app/",
     githubLink: "https://github.com/ChiragRaju/PizzaHouseReduxToolKit",
     backgroundColor: "bg-slate-500",
