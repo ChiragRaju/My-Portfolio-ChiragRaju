@@ -7,6 +7,7 @@ import NodejsIcon from "../images/nodejsIcon.webp";
 import Java from "../images/Java.png";
 import dotnet from "../images/dotnet.png";
 import postman from "../images/postman.webp";
+import mssqlserver from "../images/mssqlserver.png";
 
 import AwsIcon from "../images/awsIcon.png";
 import GithubIcon from "../images/githubIcon.png";
@@ -26,8 +27,7 @@ const SkillsSection=()=>{
           </span>
 
           <div
-            className="w-full flex justify-center items-center flex-wrap gap-6 p-8 mt-10 rounded"
-            style={{ background: "linear-gradient(99deg, #6c757d 0%, rgba(18, 19, 24, 0) 100%)" }}
+            className="w-full flex justify-center items-center flex-wrap gap-6 p-8 mt-10 rounded bg-slate-700"
           >
             <img src={HTMLIcon} width="60" alt="Icons" />
             <img src={CSSIcon} width="60" alt="Icons" />
@@ -39,6 +39,7 @@ const SkillsSection=()=>{
             <img src={postman} width="60" alt="Icons"/>
             <img src={AwsIcon} width="60" alt="Icons" />
             <img src={GithubIcon} width="60" alt="Icons" />
+            <img src={mssqlserver} width="60" alt="Icons"/>
            
           </div>
         </div>

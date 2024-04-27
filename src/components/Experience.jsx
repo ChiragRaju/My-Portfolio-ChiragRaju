@@ -46,7 +46,7 @@ This initiative significantly reduced error occurrences and improved response ti
               </div>
             </div>
             <div className="flex  flex-col sm:flex-row sm:space-x-8 mt-10 sm:mt-6 px-4 md:p-6">
-              <div className="flex  items-center sm:items-start space-x-4 sm:w-10 w-full border-b-2 border-blue-400 sm:border-b-0 pb-5 sm:pb-0">
+              <div className="flex  items-center sm:items-start space-x-4 sm:w-10 w-full border-b-2 border-slate-500 sm:border-b-0 pb-5 sm:pb-0">
               <img
                   className="w-8 sm:w-12 "
                   src={globallogic}
