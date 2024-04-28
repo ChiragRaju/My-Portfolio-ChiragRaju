@@ -1,6 +1,7 @@
 import Myportfolio from "../images/Myportfolio.png";
 import PizzaPal from "../images/PizzaPal.png";
 import ApiImage from "../images/ApiImage.png";
+import villagedeskvideo from "../videos/villagedeskvideo.webm"
 
 const projectsConfig = [
   {
@@ -38,6 +39,14 @@ const projectsConfig = [
     githubLink: "https://github.com/ChiragRaju/Chatter-Box",
     backgroundColor: "bg-slate-500",
   },
+  {
+    title: "Village help desk",
+    video: villagedeskvideo,
+    description: "One solution to raise the issues and get it resolved of your village",
+    githubLink: "https://github.com/ChiragRaju/Villagehelpdesk-UI-React",
+    backgroundColor: "bg-slate-500"
+  }
+  
 ];
 
 export default projectsConfig;

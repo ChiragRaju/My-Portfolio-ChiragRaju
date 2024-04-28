@@ -13,14 +13,19 @@ const Projectlist = () => {
           {ProjectsConfig.map((config,index) => (
             <div className="h-auto w-full  text-white rounded-md flex flex-col lg:flex-row backdrop-filter backdrop-blur-md bg-slate-700 p-4 sm:p-10 bg-opacity-80 transform transition-all hover:scale-105 sm:hover:scale-110 cursor-pointer">
               <div className={"w-full rounded-2xl "}>
+                {config.previewImage ?
+                (
                 <img
                 key={index}
                   src={config.previewImage}
+                 
                   className={
                     "w-full h-full rounded object-cover shadow-2xl transform transition-all hover:scale-110"
                   }
                   alt="Still Not Deployed"
-                />
+                />):(<video key={index} src={config.video}  autoPlay loop muted className={
+                  "w-full h-full rounded object-cover shadow-2xl transform transition-all hover:scale-110"}/>)
+                }
               </div>
               <div className="w-full h-6/6 flex flex-col pt-6 md:p-8">
                 <span className="mb-1 font-bold" style={{ fontSize: "20px" }}>
