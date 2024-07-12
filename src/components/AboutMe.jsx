@@ -29,10 +29,10 @@ const AboutMe = () => {
               Chirag Raju
             </span>
             <span className="mt-2 text-sm text-gray-300 leading-relaxed">
-              I am currently working as a Trainee Software Engineer at
-              GlobalLogic - Hitachi group company. I have around 10+ months of
+              I am currently working as a Associate Software Engineer at
+              GlobalLogic - Hitachi group company. I have around 1 year of
               experience. I have exposure in both frontend and backend
-              technologies. Currently Learning Java Spring Boot and TypeScript.
+              technologies. Currently Learning AWS and DevOps.
             </span>
           </div>
         </div>

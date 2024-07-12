@@ -9,7 +9,7 @@ const Intro = () => {
         <span>Raju</span>
       </h1>
       <span className="mt-5 font-normal text-center text-md sm:w-4/5">
-        Passinate Full Stack Web Developer with 10+ Months of experience crafting
+        Passinate Full Stack Web Developer with 1 year of experience crafting
         responsive, user-centric web applications.
       </span>
       <span className="mt-5 text-center inline-block">
