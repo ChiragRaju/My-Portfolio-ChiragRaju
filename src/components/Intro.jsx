@@ -25,7 +25,7 @@ const Intro = () => {
 
       <div className="flex space-x-6 mt-3">
         <a
-          href="https://drive.google.com/file/d/1d3yArUppICm49oPUrxmLSc7ffJ4cIYI-/view?usp=sharing"
+          href="https://drive.google.com/file/d/19v7a_fbSdOEQNVR9UND_zkYlYzNCzTNF/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
