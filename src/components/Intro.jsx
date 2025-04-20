@@ -9,7 +9,7 @@ const Intro = () => {
         <span>Raju</span>
       </h1>
       <span className="mt-5 font-normal text-center text-md sm:w-4/5">
-        Passinate Full Stack Web Developer with 1 year of experience crafting
+        Passinate Full Stack Web Developer with 2 year of experience crafting
         responsive, user-centric web applications.
       </span>
       <span className="mt-5 text-center inline-block">
@@ -25,7 +25,7 @@ const Intro = () => {
 
       <div className="flex space-x-6 mt-3">
         <a
-          href="https://drive.google.com/file/d/1FIsU8alPhhPMlHgZ0-rFAu4P2d1u0DZz/view?usp=sharing"
+          href="https://drive.google.com/file/d/16VAwjdxHpO2Z5pOSvhW2AGv2YTzWEfsC/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >

@@ -28,19 +28,14 @@ const Experience = () => {
                 of public sector entities, including councils and school boards
               </span>
               <span>
-                - API Integration For Download , Upload and Import Functionality
-                Using REDUX resulting in optimize efficiency and functionality
-                with 40% faster response time and clean code practice.
+                - Built and integrated APIs for download, upload, and import
+                functionalities using Redux, ensuring global accessibility,
+                scalability, and adherence to industry best practices for
+                maintainable and efficient front-end state management.
               </span>
               <span>
                 - Developed and implemented UI components According to Client
                 Requirement Using React Js.
-              </span>
-              <span>
-                - Implemented Correlation ID logging within the core .NET Core
-                Web API application to track and identify errors efficiently on
-                AWS. This initiative significantly reduced error occurrences and
-                improved response time.
               </span>
               <span>
                 - Implemented AWS Lambda functions for seamless email
@@ -48,7 +43,9 @@ const Experience = () => {
                 to enhance communication capabilities within applications.
               </span>
               <div className="flex flex-col">
-                <span>- Skills: React js , javascript , MUI , .Net Core</span>
+                <span>
+                  - Skills: React js , javascript , MUI , C#, .Net Core
+                </span>
               </div>
             </div>
           </div>
