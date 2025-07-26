@@ -21,31 +21,48 @@ const Experience = () => {
               September, 2023 - Present
             </span>
             <div className="flex flex-col leading-relaxed">
-              <span>
-                - Currently employed by Diligent Corporation, dedicated to
-                developing the Community product—a comprehensive agenda and
-                meeting management tool tailored to fulfill the governance needs
-                of public sector entities, including councils and school boards
-              </span>
-              <span>
-                - Built and integrated APIs for download, upload, and import
-                functionalities using Redux, ensuring global accessibility,
-                scalability, and adherence to industry best practices for
-                maintainable and efficient front-end state management.
-              </span>
-              <span>
-                - Developed and implemented UI components According to Client
-                Requirement Using React Js.
-              </span>
-              <span>
-                - Implemented AWS Lambda functions for seamless email
-                integration, utilizing the AWS SES (Simple Email Service) client
-                to enhance communication capabilities within applications.
-              </span>
-              <div className="flex flex-col">
-                <span>
-                  - Skills: React js , javascript , MUI , C#, .Net Core
-                </span>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>
+                  Designed and implemented reusable UI components using
+                  React.js, improving development speed by 25% through code
+                  reusability and modular design.
+                </li>
+                <li>
+                  Developed and integrated secure and scalable APIs for file
+                  upload, download, and import using Redux, resulting in a 40%
+                  improvement in frontend data handling and performance.
+                </li>
+                <li>
+                  Contributed to implementing AWS Lambda for integrated email
+                  services in .NET, enhancing email functionality and
+                  operational efficiency.
+                </li>
+                <li>
+                  Collaborated in Agile sprints to address React.js and .NET
+                  Core bugs and defects, contributing to a 35% reduction in
+                  issue turnaround time using Jira for sprint tracking and
+                  prioritization.
+                </li>
+                <li>
+                  Enforced clean, maintainable validation logic in .NET APIs
+                  using FluentValidation.
+                </li>
+                <li>
+                  Identified and resolved critical security vulnerabilities such
+                  as stored XSS and open redirect issues by sanitizing user
+                  inputs and validating redirection URLs, improving application
+                  security and preventing phishing and injection attacks.
+                </li>
+                <li>
+                  Improved codebase security by fixing SAST and DAST issues
+                  flagged by tools like GitHub Advanced Security (GHAS), Snyk,
+                  and Burp Suite, reducing high-severity risks and enhancing
+                  compliance by 45%.
+                </li>
+              </ul>
+              <div className="mt-4 font-semibold">
+                Skills: C#, JavaScript, SQL, React.js, ASP.NET Core, .NET Core
+                Web API, LINQ, Entity Framework Core, ADO.NET
               </div>
             </div>
           </div>
@@ -62,20 +79,21 @@ const Experience = () => {
               Febuary, 2023 - June, 2023
             </span>
             <div className="flex flex-col leading-relaxed">
-              <span>
-                - Received specialized Full Stack Developer training during
-                internship focusing on ReactJS and .NET Core Web API
-                technologies.
-              </span>
-              <span>
-                - Contributed on creating UI Components uinsg React Js and
-                Developed API using Repository Pattern and SOLID Principles in
-                .NET Core Web API.
-              </span>
-              <div className="flex flex-col">
-                <span>
-                  - Skills: HTML , CSS , JavaScript ,React Js , . Net Core
-                </span>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>
+                  Received specialized Full Stack Developer training during
+                  internship focusing on ReactJS and .NET Core Web API
+                  technologies.
+                </li>
+
+                <li>
+                  - Contributed on creating UI Components uinsg React Js and
+                  Developed API using Repository Pattern and SOLID Principles in
+                  .NET Core Web API.
+                </li>
+              </ul>
+              <div className="mt-4 font-semibold">
+                Skills: HTML , CSS , JavaScript ,React Js , . Net Core
               </div>
             </div>
           </div>

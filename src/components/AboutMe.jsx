@@ -1,5 +1,5 @@
 import React from "react";
-import Chiragrajupic from "./../images/Chiragrajupic.png";
+import ProfilePic from "../images/Profile picture .jpg";
 import { Element } from "react-scroll";
 
 const AboutMe = () => {
@@ -16,10 +16,10 @@ const AboutMe = () => {
               className="h-48 w-48 lg:h-80 lg:w-80  mx-auto"
             >
               <img
-                src={Chiragrajupic}
+                src={ProfilePic}
                 alt="MyPic"
                 width="100%"
-                className="mx-auto"
+                className="mx-auto rounded-3xl"
               />
             </div>
           </div>

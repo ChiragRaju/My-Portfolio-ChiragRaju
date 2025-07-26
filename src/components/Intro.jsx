@@ -9,8 +9,9 @@ const Intro = () => {
         <span>Raju</span>
       </h1>
       <span className="mt-5 font-normal text-center text-md sm:w-4/5">
-        Passinate Full Stack Web Developer with 2 year of experience crafting
-        responsive, user-centric web applications.
+        Passionate Full Stack Web Developer with 2 years of experience crafting
+        responsive, user-centric web applications. Proficient in .NET Core,
+        React.js, C#, JavaScript, SQL, and ASP.NET Core.
       </span>
       <span className="mt-5 text-center inline-block">
         <MdOutlinePermContactCalendar className="inline-block mr-1 text-xl" />
@@ -25,7 +26,7 @@ const Intro = () => {
 
       <div className="flex space-x-6 mt-3">
         <a
-          href="https://drive.google.com/file/d/16VAwjdxHpO2Z5pOSvhW2AGv2YTzWEfsC/view?usp=sharing"
+          href="https://drive.google.com/file/d/1d4Uf06xg8V-C1BT5jBjAJyoGKdMSXSM8/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
